@@ -1,0 +1,25 @@
+select {
+  width: 150px;
+  height: 50px;
+  font-size: 22px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.remove-btn {
+  margin-bottom: 5px;
+  transition: color 0.3s ease;
+}
+
+.remove-btn:hover {
+  color: red;
+}
